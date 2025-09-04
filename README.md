@@ -66,7 +66,7 @@ A modern, responsive cryptocurrency tracking application with stunning glass mor
 ## 🌐 Deployment
 
 The app is automatically deployed to Netlify and can be accessed at:
-**https://cryptotable-by-mg.netlify.app**
+**https://deft-speculoos-976f14.netlify.app**
 
 ## 📊 API Information
 

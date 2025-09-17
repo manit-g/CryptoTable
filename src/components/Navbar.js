@@ -5,12 +5,13 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <Link to='/'>
-            <div className='navbar'>
+        <div className='navbar'>
+            <Link to='/' className='logo-link'>
                 <FaCoins className='icon' />
-                <h1> Crypto<span className='purple'>Table</span> <span className='by-mg'>by MG</span></h1>
-            </div>
-        </Link>
+                <h1> Crypto<span className='purple'>Table</span></h1>
+            </Link>
+            <span className='by-mg'>by <a href="https://portfoliobymg.netlify.app/" target="_blank" rel="noopener noreferrer" className="mg-link">MG</a></span>
+        </div>
     )
 }
 
